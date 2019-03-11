@@ -1,9 +1,9 @@
-import Link from "next/link";
+import CreateItem from "../components/CreateItem";
 
 function sell() {
   return (
     <div>
-      <p>Sell!</p>
+      <CreateItem />
     </div>
   );
 }
